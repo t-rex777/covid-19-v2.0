@@ -1,0 +1,29 @@
+.chart {
+  position: relative;
+  height: 50vh;
+  width: 900;
+  background-color: #ecf0f1;
+  /* display: flex; */
+  /* justify-content: stretch; */
+  padding: 10px;
+  margin: 20px;
+  border: solid black 5px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+
+@media (max-width: 376px) {
+  .chart {
+    width: 90vw;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart {
+    margin-top: 0;
+  }
+}

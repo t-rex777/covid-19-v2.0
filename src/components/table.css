@@ -1,0 +1,28 @@
+.table {
+  overflow: auto;
+  height: 400px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+  border : solid white
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+.table tr:nth-of-type(odd) {
+  background-color: #709fb0;
+}
+
+@media only screen and (max-width:877px){
+    .table{
+        width: 280px;
+    }
+}

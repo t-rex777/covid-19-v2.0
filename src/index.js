@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./App.css"
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <footer className="text-center">
+      <p className="text-center">Made by Manish Kumar Sahu</p>
+      <p className="text-center">@ 2020</p>
+      <a href="https://github.com/t-rex777">
+          <i className="fa-2x fab fa-github footer-icons mx-3"></i>
+        </a>
+        <a href="https://www.facebook.com/lionelmanish1408">
+          <i className="fa-2x fab fa-facebook footer-icons mx-3"></i>
+        </a>
+        <a href="https://www.instagram.com/_kidding_me__/">
+          <i className="fa-2x fab fa-instagram footer-icons mx-3"></i>
+        </a>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+    </footer>
+  </div>,
+  document.getElementById("root")
+);
