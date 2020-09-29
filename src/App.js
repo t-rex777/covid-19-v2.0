@@ -28,6 +28,13 @@ export default function App() {
 
       <div className="row lower-container ">
         <div className="col m-3">
+          
+          <Map
+            center={{ lat: 28.5934, lng: 77.2223 }}
+            zoom={3}
+            countries={mapCountries}
+            casesType={casesType}
+          />
           <button
             className="btn btn-info btn-lg m-3"
             onClick={() => {
@@ -52,12 +59,6 @@ export default function App() {
           >
             Total Deaths
           </button>
-          <Map
-            center={{ lat: 28.5934, lng: 77.2223 }}
-            zoom={3}
-            countries={mapCountries}
-            casesType={casesType}
-          />
         </div>
         <div className="col">
           <h3 className="text-white mt-5">Last 30 days in India</h3>
