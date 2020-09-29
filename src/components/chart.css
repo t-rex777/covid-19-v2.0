@@ -1,6 +1,6 @@
 .chart {
   position: relative;
-  height: 50vh;
+  height: 400px;
   width: 900;
   background-color: #ecf0f1;
   /* display: flex; */
@@ -15,7 +15,7 @@
 @media (max-width: 376px) {
   .chart {
     width: 90vw;
-    height: 40vh;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
